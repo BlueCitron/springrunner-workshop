@@ -1,0 +1,16 @@
+site:
+  author: Arawn Park
+  toggles:
+    auth: true
+    onlineUsersCounter: true
+
+spring:
+  http:
+    encoding:
+      force: true
+      charset: 'utf-8'  
+
+logging:
+  level:
+    org.springframework: info
+    org.springframework.web: debug
